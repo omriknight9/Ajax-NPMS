@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+	background-color: #35405b;
+	width: 100%;
+	
+}
+
+h1 {
+	color: white;
+	font-size: 5rem;
+}
+
+p {
+	color: white;
+}
+
+
+.content {
+	width: 100%;
+}
+.container {
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	height: 30rem;
+}
+
+.search {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.searchInput {
+	width: 60%;
+}
+
+.btn {
+	background-color: #1dd09b;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.showResult {
+	display: none;
+	width: 80%;
+	height: 10rem;
+	margin-top: .7rem;
+	overflow-y: auto;
+	background-color: white;
+}
+
+.showResult span {
+	display: block;
+}
+
+.showResult::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #e0ca92;
+	border-radius: 10px;
+}
+
+.showResult::-webkit-scrollbar {
+	width: 10px;
+	background-color: #e0ca92;
+}
+.showResult::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #F5F5F5;
+	border: 1px solid black;
+}
